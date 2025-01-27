@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body and overall page styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f7fc;
+  margin: 0;
+  color: #333;
+}
+
+/* Container for the content */
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td button {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+td button:hover {
+  background-color: #e00000;
+}
+
+/* Input and select field styling */
+input[type="file"],
+select {
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+/* Submit button at the bottom */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}

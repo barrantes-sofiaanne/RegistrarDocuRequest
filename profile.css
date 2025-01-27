@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Body styling for center alignment */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f9;
+  margin: 0;
+}
+
+/* Container for the content */
+.container {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styles for links and buttons */
+a,
+button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links and buttons */
+a:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Special styles for the logout button */
+.logout-button {
+  background-color: #ff4c4c;
+}
+
+.logout-button:hover {
+  background-color: #e00000;
+}
+
+/* Footer text styling */
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
